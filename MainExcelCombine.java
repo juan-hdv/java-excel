@@ -12,7 +12,7 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
-import com.indracompany.general.Log;
+import com.jgm.general.Log;
 
 public class MainExcelCombine {
 
