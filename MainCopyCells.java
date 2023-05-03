@@ -13,8 +13,8 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
-import com.indracompany.excellibs.WorkBookPlus;
-import com.indracompany.general.Log;
+import com.jgm.excellibs.WorkBookPlus;
+import com.jgm.general.Log;
 
 public class MainCopyCells {
 	
