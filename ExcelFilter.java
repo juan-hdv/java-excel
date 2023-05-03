@@ -15,8 +15,8 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
-import com.indracompany.excellibs.WorkBookPlus;
-import com.indracompany.general.Log;
+import com.jgm.excellibs.WorkBookPlus;
+import com.jgm.general.Log;
 
 public class ExcelFilter {
 
@@ -187,7 +187,7 @@ Log.print("To delete row "+i+". Element="+srcValue+". Found="+(foundElement?"tru
 			// Will never occur
 			break;
 		default:	
-			throw new RuntimeException ("Qué celda tan extraña");
+			throw new RuntimeException ("QuÃ© celda tan extraÃ±a");
 		}
 		return result.toString();
 	}
