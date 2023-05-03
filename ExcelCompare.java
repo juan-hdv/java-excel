@@ -13,7 +13,7 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
-import com.indracompany.general.Log;
+import com.jgm.general.Log;
 
 public class ExcelCompare {
 
@@ -186,7 +186,7 @@ public class ExcelCompare {
 		for (int i=src1RowFrom; i <= RowTo; i++, count++) {
 			int j = src2RowFrom + count;
 			val1 = getStringVal(src1Sheet,i, src1Col);
-			if (val1 == null || val1.equals("0.0")) val1 = ""; // Para valores numéricos, solución temporal
+			if (val1 == null || val1.equals("0.0")) val1 = ""; // Para valores numÃ©ricos, soluciÃ³n temporal
 			val2 = getStringVal(src2Sheet,j, src2Col);
 			if (val2 == null || val2.equals("0.0")) val2 = "";
 			if (sensitive ? val1.equals(val2) : val1.equalsIgnoreCase(val2))
