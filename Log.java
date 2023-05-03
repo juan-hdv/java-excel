@@ -1,4 +1,4 @@
-package com.indracompany.general;
+package com.jgm.general;
 
 import java.io.IOException;
 import java.util.logging.FileHandler;
