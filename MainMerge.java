@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 import excelmerge.ExcelMerge;
 
-import com.indracompany.general.Log;
+import com.jgm.general.Log;
 
 
 public class MainMerge {
