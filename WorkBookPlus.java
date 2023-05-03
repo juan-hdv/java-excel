@@ -1,4 +1,4 @@
-package com.indracompany.excellibs;
+package com.jgm.excellibs;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -9,7 +9,7 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 
-import com.indracompany.general.Log;
+import com.jgm.general.Log;
 
 public abstract class WorkBookPlus {
 	
